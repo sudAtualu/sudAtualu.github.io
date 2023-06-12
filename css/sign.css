@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(128, 175, 123);
+    /* overflow: hidden; */
+    font-family: 'Roboto Slab', serif;
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20110728_89%2Fberryzbms_1311843576256qHzwX_jpg%2F5b_034_berryzbms.jpg&type=a340');
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    /* background-color: rgb(250, 250, 250); */
+    /* border: 2px solid rgb(218, 196, 196); */
+    /* border-radius: 50%; */
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 10px black;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+#signboard {
+   text-align: center;
+   margin-top: 300px;
+   font-family: 'omyu_pretty';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.signbox{
+    /* display: flex; */
+    /* margin: 100px; */
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+table#enroll {
+    border: 5px solid rgb(0, 0, 0);
+    border-spacing: 10px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 7%;
+  }
+  table#enroll th {
+    text-align: right;
+  }
+  table#enroll td.btn-wrapper {
+    text-align: center;
+  }
+  .short {
+    width: 50px;
+  }
+  @font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#imgexp {
+    align-items: center;
+    text-align: center;
+}
+.myLink {
+    text-decoration: none;
+    color:  black;
+    font-size: larger;
+    text-shadow : 0px 0px 4px  #ffffff;
+    
+}

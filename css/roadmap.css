@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(128, 175, 123);
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNjExMTlfNiAg%2FMDAxNDc5NTQ0NzMzNTUx.7Usar6H9U4d1Ov-yRgpW28W7pjxyclNNNqipdm1kNMcg.z_fKJm0a7rv-hcj7GykCUmmtShT7WHHgVnLyJtf-xLYg.JPEG.wlgp0825%2FKakaoTalk_Moim_4JSvIOc30fgUukCNCy1RgGXiBCw52x.jpg&type=ofullfill340_600_png");
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    /* background-color: rgb(250, 250, 250); */
+    /* border: 2px solid rgb(218, 196, 196); */
+    /* border-radius: 50%; */
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 10px black;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+#signboard {
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(233, 228, 228);
+    text-shadow : 0px 0px 4px  #000000;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 450px;
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+.prod-list {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+  .prod-list li {
+    /*부모요소로 사용될 li태그의 포지션relative*/
+    position: relative; 
+    float: left;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+  }
+   /*이미지의 크기는 300*240으로 통일함 */
+  .prod-list img {
+    margin:0;
+    padding:0;
+    float:left;
+    z-index:5;
+    width:300px;
+    height:240px;
+  }   
+  .prod-list .caption{
+    position:absolute;
+    top:220px;
+    width:300px;
+    height:220px;
+    padding-top: 20px;
+    text-align:center;
+    color:white;
+    opacity:0;
+    background:rgba(0,0,0,.5);
+    transition: .5s;
+  }
+  .prod-list li:hover .caption{
+    opacity:1;
+    transform: translateY(-220px);
+  }
+
+  @font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#img1 {
+    border: 5px solid rgb(69, 69, 73);
+    border-radius: 30%;
+}
+
+#img2 {
+    border: 5px solid rgb(69, 69, 73);
+    border-radius: 30%;
+}
+
+#img3 {
+    border: 5px solid rgb(69, 69, 73);
+    border-radius: 30%;
+}
+
+#imgexp {
+   margin-top: 400px;
+   text-align: center;
+    color:  white;
+    font-size: larger;
+    text-shadow : 0px 0px 4px  #000000;
+    /* font-style: oblique; */
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.myLink {
+    margin-top: 400px;
+    text-align: center;
+     color:  rgb(0, 0, 0);
+     font-size: larger;
+     text-shadow : 0px 0px 4px  #ffffff;
+     /* font-style: oblique; */
+     font-family: 'omyu_pretty';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+     text-decoration: none;
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 255, 205);
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MTFfODUg%2FMDAxNjgzNzM1NjY4MTU0.vauTZDY2fcxJB2ImDKJuyBeNi6h-yVuXZAm3uM0jvW8g.f7Ff0_DqOcPOy1DRsMYHPuIAr5vABoaGed1IiEtoIDIg.JPEG.kkr3961%2FIMG_0073.jpg&type=sc960_832');
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    /* background-color: rgb(250, 250, 250); */
+    /* border: 2px solid rgb(218, 196, 196); */
+    /* border-radius: 50%; */
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 10px black;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+#mainimg {
+    float: left;
+    margin-top: 230px;
+    margin-left: 100px;
+    border: 5px solid rgb(65, 66, 65);
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+#serveimg {
+    float: left;
+    margin-top: 300px;
+    margin-left: 100px;
+    border: 5px solid rgb(65, 66, 65); 
+
+}
+
+#serveimg2 {
+    float: left;
+    margin-top: 500px;
+    margin-left: 10px;
+    border: 5px solid rgb(65, 66, 65);
+
+}
+
+
+.intro {
+    margin-top: 150px;
+    text-align: center;
+    display: inline-block;
+    padding: 60px;
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size: larger;
+}
+#section {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

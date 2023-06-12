@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(162, 231, 231);
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MTZfMTUg%2FMDAxNjYzMzMzMDUzODEx.jDAGWqB6rn6FcXte8D9_ASGGAXknTWHTfs1l0I8N-0Ag.gZZYt8dRGs7OnsBM0GdGVj5vd5GO66XsUcsah9cNqUwg.PNG.studygir%2F6jj5aoq6_%252869%2529.png&type=a340');
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 35px;
+}
+
+.menu li a {
+    /* background-color: rgb(250, 250, 250); */
+    /* border: 2px solid rgb(218, 196, 196); */
+    /* border-radius: 50%; */
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 10px black;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+#precious {
+    text-align: center;
+    color:  white;
+    font-size: larger;
+    text-shadow : 0px 0px 4px  #000000;
+    /* font-style: oblique; */
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} 
+div#gallery{
+    width:700px;
+    height:450px;
+    margin:0 auto;
+    border: 2px solid #000000; /* 굵은테두리*/
+    background: #c7f1f7; /* 배경색*/
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MDhfNDUg%2FMDAxNjgwOTE0NDI0NjQ5.0Srm9wJoWHKf9g41_nBfj1FAd7886uJ2mnbxXsOwaAYg.VMulI60Yw1vZhQQ9eS4TdbQ4w_jiI-xZXXTWL5HH9bYg.JPEG.bts6379%2FIMG_0705.JPG&type=sc960_832');
+    background-size: cover;
+    padding:10px;
+    margin-top: 150px;
+    border-radius: 20%;
+    /* overflow: hidden; */
+}
+div#gallery ul li{
+    position:relative;
+    list-style:none;
+    float:left;
+    margin:0 10px 10px 0;
+}
+div#gallery ul li img.small{
+    width:200px;
+    height:200px;
+    cursor:pointer;
+    border:2px solid  #000000;
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+div#gallery ul li img.pic{
+    position:absolute;
+    left:110px;
+    top:80px;
+    width:300px;
+    /* height:240px; */
+    border:2px solid rgb(94, 91, 91);
+    z-index:10;
+    
+    visibility:hidden;
+    /* display:none; */
+    /* opacity:0; */
+
+}
+/* 작은사진, 확대사진에 hover시 모두 보여줌. */
+div#gallery ul li img.small:hover+img.pic, div#gallery ul li img.pic:hover{
+    
+    visibility:visible;
+    /* display:block; */
+    /* opacity:1; */
+    
+}
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

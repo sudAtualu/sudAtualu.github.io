@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/sign.css">
+    <title>Welcome to HyunWoo</title>
+    <script defer src="js/sign.js"></script>
+</head>
+<body>
+<div>
+<header id="header">
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="love.html">Love</a></li>
+            <li><a href="roadmap.html">D-road</a></li>
+            <li><a href="sign.html">Sign</a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+<h1 id="signboard">👌회원가입👌</h1>
+<div class="signbox">
+    <form 
+    name="memberFrm" id="sign">
+        <!-- table#enroll>(tr>th+td)*10 -->
+        <table id="enroll">
+          <tr>
+            <th>✔아이디<span class="req"> : </span></th>
+            <td>
+              <input type="text" name="userId" id="userId" />
+            </td>
+          </tr>
+          <tr>
+            <th>✔비밀번호<span class="req"> : </span></th>
+            <td>
+              <input type="password" name="pwd" id="pwd" />
+            </td>
+          </tr>
+          <tr>
+            <th>✔비밀번호확인</th>
+            <td>
+              <input type="password" id="pwdCheck" />
+            </td>
+          </tr>
+          <tr>
+            <th>✔이름<span class="req"> : </span></th>
+            <td>
+              <input type="text" name="userName" id="userName" />
+            </td>
+          </tr>
+          <tr>
+            <th>✔이메일<span class="req"> : </span></th>
+            <td>
+              <input type="email" name="email" id="email" />
+            </td>
+          </tr>
+          <tr>
+            <th>✔전화번호<span class="req"> : </span></th>
+            <td>
+              <!-- input:text[name=tel$]#tel$.phone*3 -->
+              <input type="text" name="tel" id="tel" class="phone" />
+             
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="btn-wrapper">
+              <button id="signup" >회원가입</button>
+              <button id="replay">다시적기</button>
+              <!-- <input type="submit" value="회원가입"/>&nbsp;
+              <input type="reset" value="다시적기" /> -->
+            </td>
+          </tr>
+        </table>
+      </form>
+      <div id="imgexp">
+        <h2>재밌는 현우 소식이 궁금하다면!?👇CLICK👇</h2>
+        <span>회원가입 하시면 더 많은 소식을 만날 수 있는 절호의 기회!!</span> 
+        <br>
+        <!-- <h2></h2> -->
+        <br>
+        <a class="myLink" href="https://blog.naver.com/nhw12299">💜Blog💜</a>
+        <a class="myLink" href="https://www.instagram.com/sud_actualu/">💛Instagram💛</a>
+        <a class="myLink" href="https://spiny-mechanic-839.notion.site/56bad2f884064a8fb2980d19bdf31dd5">💚Notion💚</a>
+       
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
